@@ -12,4 +12,9 @@ describe('add', () => {
   });
 });
 
+it("'cherry' + 2 is undefined", () => {
+  expect(add('cherry', 2)).toBeUndefined();
+});
+
 // '2' -> fail, because it is a string!
+// "cherry" + 2 is undefined!
