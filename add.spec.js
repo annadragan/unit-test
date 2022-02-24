@@ -11,3 +11,5 @@ describe('add', () => {
     expect(result).toBe(6);
   });
 });
+
+// '2' -> fail, because it is a string!
